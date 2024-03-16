@@ -1,0 +1,94 @@
+:root {
+	--black: #121212;
+	--overlay: rgba(0, 0, 0, 0.55);
+	--bgt: rgba(0, 0, 0, 0.9);
+	--subtle: #ffffff33;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+html,
+body {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Cabin Variable', sans-serif;
+	background-color: var(--black);
+	color: #fff;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+	text-underline-offset: 2px;
+}
+ul {
+	list-style: none;
+	padding-left: unset;
+}
+h1,
+h2,
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: normal;
+	line-height: 1.2;
+}
+h1 {
+	font-size: calc(36 / 16 * 1rem);
+}
+
+/* Classes */
+
+.layout {
+	max-width: 1200px;
+}
+.wrap {
+	margin: 0 auto;
+}
+.btn {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 6px 12px;
+	border-radius: 4px;
+	transition: 250ms;
+}
+.btn:hover {
+	background-color: #fff;
+	color: var(--black);
+	transition: 125ms;
+}
+@media (max-width: 800px) {
+	.wrap {
+		padding: 0 20px;
+	}
+}
