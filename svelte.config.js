@@ -3,12 +3,13 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	alias: {
-		$lib: './src/lib/'
-	},
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			$assets: './src/lib/assets/',
+			$components: './src/lib/components/'
+		}
 	}
 };
 
