@@ -1,7 +1,7 @@
 <script>
-    import backgroundSection from '$lib/assets/musculacao.jpg';
-    import Intro from '../lib/components/Intro.svelte';
-    import SeoHome from '../lib/components/SeoHome.svelte';
+    import backgroundSection from '$assets/musculacao.jpg';
+    import Intro from '$components/Intro.svelte';
+    import SeoHome from '$components/SeoHome.svelte';
 </script>
 
 <SeoHome
