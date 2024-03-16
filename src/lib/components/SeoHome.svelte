@@ -1,5 +1,5 @@
 <script lang="ts">
-  import img from '$lib/assets/musculacao.jpg';
+  import img from '$assets/musculacao.jpg';
   export let description:string;
   
   let siteName = 'Best Form';

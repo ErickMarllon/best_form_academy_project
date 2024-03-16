@@ -1,5 +1,5 @@
 <script>
-    import img from '$lib/assets/crossfit.jpg';
+    import img from '$assets/crossfit.jpg';
     import { fly } from 'svelte/transition';
     let visible = false;
     setTimeout(() => {

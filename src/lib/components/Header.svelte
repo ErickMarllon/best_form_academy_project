@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/stores';
-  import brand from '$lib/assets/brand.jpg';
+  import brand from '$assets/brand.jpg';
   import { Hamburger } from 'svelte-hamburgers';
   import { fly } from 'svelte/transition';
   $: current = $page.route.id;
