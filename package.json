@@ -36,6 +36,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^5.1.1"
+		"@fontsource-variable/cabin": "^5.0.18",
+		"@fontsource/roboto-condensed": "^5.0.15",
+		"@formkit/auto-animate": "^0.8.1",
+		"@sveltejs/adapter-vercel": "^5.1.1",
+		"svelte-hamburgers": "^4.2.0"
 	}
 }
