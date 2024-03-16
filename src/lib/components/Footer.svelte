@@ -1,7 +1,7 @@
 
 <footer class="footer">
     <div class="footer__wrapper wrap">
-        <p>&copy; Academia Local, 2024</p>
+        <p>&copy; Best Form, 2024</p>
     </div>
 
 </footer>
